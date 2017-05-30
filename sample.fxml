@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="330.0" prefWidth="635.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
+  <children>
+    <Button fx:id="b1" blendMode="SRC_OVER" cache="true" cacheHint="SPEED" contentDisplay="BOTTOM" depthTest="ENABLE" layoutX="14.0" layoutY="12.0" mnemonicParsing="false" pickOnBounds="false" prefHeight="20.0" prefWidth="200.0" text="Impact Radius" textAlignment="RIGHT" textOverrun="CENTER_ELLIPSIS" wrapText="false">
+      <font>
+        <Font name="Stencil" size="12.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button fx:id="b2" blendMode="SRC_OVER" font="$x1" layoutX="14.0" layoutY="42.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="200.0" text="Webgains" textAlignment="RIGHT" />
+    <Button fx:id="b3" blendMode="SRC_OVER" font="$x1" layoutX="14.0" layoutY="70.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="200.0" text="ShareAsale" textAlignment="RIGHT" />
+    <Button fx:id="b4" blendMode="SRC_OVER" font="$x1" layoutX="14.0" layoutY="100.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="200.0" text="Douglas GERMANY" textAlignment="RIGHT" />
+    <Button fx:id="b7" blendMode="SRC_OVER" font="$x1" layoutX="14.0" layoutY="188.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="200.0" text="PepperJam" textAlignment="RIGHT" />
+    <Button fx:id="b5" blendMode="SRC_OVER" font="$x1" layoutX="14.0" layoutY="129.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="200.0" text="Effiliation" textAlignment="RIGHT" />
+    <Button fx:id="b16" blendMode="SRC_OVER" font="$x1" layoutX="430.0" layoutY="42.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="200.0" text="Amazon INDIA" textAlignment="RIGHT" />
+    <Button fx:id="b6" blendMode="SRC_OVER" font="$x1" layoutX="14.0" layoutY="158.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="200.0" text="Rakuten" textAlignment="RIGHT" />
+    <Button fx:id="b14" blendMode="SRC_OVER" font="$x1" layoutX="223.0" layoutY="188.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="200.0" text="Amazon SPAIN" textAlignment="RIGHT" />
+    <Button fx:id="b9" blendMode="SRC_OVER" font="$x1" layoutX="223.0" layoutY="42.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="200.0" text="Amazon CHINA" textAlignment="RIGHT" />
+    <Button fx:id="b10" blendMode="SRC_OVER" font="$x1" layoutX="223.0" layoutY="70.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="200.0" text="Amazon UNITED STATES" textAlignment="RIGHT" />
+    <Button fx:id="b11" blendMode="SRC_OVER" font="$x1" layoutX="223.0" layoutY="100.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="200.0" text="Amazon JAPAN" textAlignment="RIGHT" />
+    <Button fx:id="b15" blendMode="SRC_OVER" font="$x1" layoutX="430.0" layoutY="12.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="200.0" text="Amazon FRANCE" textAlignment="RIGHT" />
+    <Button fx:id="b12" blendMode="SRC_OVER" font="$x1" layoutX="223.0" layoutY="129.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="200.0" text="Amazon UNITED KINGDOM" textAlignment="RIGHT" />
+    <Button fx:id="b17" blendMode="SRC_OVER" font="$x1" layoutX="430.0" layoutY="70.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="200.0" text="Amazon ITALY" textAlignment="RIGHT" />
+    <Button fx:id="b18" blendMode="SRC_OVER" font="$x1" layoutX="430.0" layoutY="100.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="200.0" text="Coolblue, Wehkamp" textAlignment="RIGHT" />
+    <Button fx:id="b13" blendMode="SRC_OVER" font="$x1" layoutX="223.0" layoutY="158.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="200.0" text="Amazon GERMANY" textAlignment="RIGHT" />
+    <Button fx:id="b8" blendMode="SRC_OVER" font="$x1" layoutX="223.0" layoutY="12.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="200.0" text="Amazon CANADA" textAlignment="RIGHT" />
+    <TextField fx:id="answer" blendMode="DARKEN" editable="false" layoutX="85.0" layoutY="216.0" prefHeight="27.0" prefWidth="476.0" />
+    <TextField fx:id="answer2" blendMode="DARKEN" editable="false" layoutX="85.0" layoutY="253.0" prefHeight="27.0" prefWidth="476.0" />
+    <TextField fx:id="answer3" blendMode="DARKEN" editable="false" layoutX="85.0" layoutY="289.0" prefHeight="27.0" prefWidth="476.0" />
+    <Label font="$x1" layoutX="11.0" layoutY="223.0" prefHeight="20.0" prefWidth="40.0" text="URL:" />
+    <Label font="$x1" layoutX="11.0" layoutY="260.0" prefHeight="20.0" prefWidth="40.0" text="LOGIN:" />
+    <Label font="$x1" layoutX="11.0" layoutY="296.0" prefHeight="20.0" prefWidth="74.0" text="PASSWORD:" />
+    <Button fx:id="copyb1" font="$x1" layoutX="571.0" layoutY="216.0" mnemonicParsing="false" prefHeight="27.0" text="COPY" textAlignment="JUSTIFY" />
+    <Button fx:id="copyb2" font="$x1" layoutX="571.0" layoutY="253.0" mnemonicParsing="false" prefHeight="27.0" text="COPY" textAlignment="JUSTIFY" />
+    <Button fx:id="copyb3" font="$x1" layoutX="571.0" layoutY="289.0" mnemonicParsing="false" prefHeight="27.0" text="COPY" textAlignment="JUSTIFY" />
+  </children>
+</AnchorPane>
