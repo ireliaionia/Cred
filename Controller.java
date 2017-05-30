@@ -24,9 +24,9 @@ public class Controller {
                 @Override
                 public void handle(MouseEvent event) {
 
-                    answer.setText("https://member.impactradius.com/login.user");
-                    answer2.setText("Richard.Klatovsky");
-                    answer3.setText("gethatch16");
+                    answer.setText("URL");
+                    answer2.setText("Login");
+                    answer3.setText("Password");
                 }
 
         });
@@ -34,9 +34,9 @@ public class Controller {
             @Override
             public void handle(MouseEvent event) {
 
-                answer.setText("http://www.webgains.com/front/user/login");
-                answer2.setText("registration@gethatch.com");
-                answer3.setText("2BjiSdhrh&h");
+                answer.setText("URL");
+                    answer2.setText("Login");
+                    answer3.setText("Password");
             }
 
         });
@@ -44,9 +44,9 @@ public class Controller {
             @Override
             public void handle(MouseEvent event) {
 
-                answer.setText("https://account.shareasale.com/a-login.cfm");
-                answer2.setText("iceleads");
-                answer3.setText("3h3efhdg");
+                answer.setText("URL");
+                    answer2.setText("Login");
+                    answer3.setText("Password");
             }
 
         });
@@ -54,9 +54,9 @@ public class Controller {
             @Override
             public void handle(MouseEvent event) {
 
-                answer.setText("https://pvn.douglas.de/");
-                answer2.setText("registration@gethatch.com");
-                answer3.setText("dlhatchde16");
+                answer.setText("URL");
+                    answer2.setText("Login");
+                    answer3.setText("Password");
             }
 
         });
@@ -64,9 +64,9 @@ public class Controller {
             @Override
             public void handle(MouseEvent event) {
 
-                answer.setText("http://www.effiliation.com/en/publishers-area/");
-                answer2.setText("hatch");
-                answer3.setText("123Hatch!");
+                answer.setText("URL");
+                    answer2.setText("Login");
+                    answer3.setText("Password");
             }
 
         });
@@ -74,9 +74,9 @@ public class Controller {
             @Override
             public void handle(MouseEvent event) {
 
-                answer.setText("https://login.linkshare.com/sso/login");
-                answer2.setText("gethatch.com");
-                answer3.setText("3h3efhdg");
+                answer.setText("URL");
+                    answer2.setText("Login");
+                    answer3.setText("Password");
             }
 
         });
@@ -84,9 +84,9 @@ public class Controller {
             @Override
             public void handle(MouseEvent event) {
 
-                answer.setText("");
-                answer2.setText("");
-                answer3.setText("");
+                answer.setText("URL");
+                    answer2.setText("Login");
+                    answer3.setText("Password");
             }
 
         });
@@ -94,9 +94,9 @@ public class Controller {
             @Override
             public void handle(MouseEvent event) {
 
-                answer.setText("https://associates.amazon.ca/login");
-                answer2.setText("j.kroese@iceleads.com");
-                answer3.setText("3h3efhdg");
+                answer.setText("URL");
+                    answer2.setText("Login");
+                    answer3.setText("Password");
             }
 
         });
@@ -104,9 +104,9 @@ public class Controller {
             @Override
             public void handle(MouseEvent event) {
 
-                answer.setText("https://associates.amazon.cn/");
-                answer2.setText("registration@iceleads.com");
-                answer3.setText("d6sg7va");
+                answer.setText("URL");
+                    answer2.setText("Login");
+                    answer3.setText("Password");
             }
 
         });
@@ -114,9 +114,9 @@ public class Controller {
             @Override
             public void handle(MouseEvent event) {
 
-                answer.setText("https://affiliate-program.amazon.com/gp/associates/network/reports/main.html");
-                answer2.setText("j.kroese@iceleads.com");
-                answer3.setText("3h3efhdg");
+                answer.setText("URL");
+                    answer2.setText("Login");
+                    answer3.setText("Password");
             }
 
         });
@@ -124,9 +124,9 @@ public class Controller {
             @Override
             public void handle(MouseEvent event) {
 
-                answer.setText("https://affiliate.amazon.co.jp/login");
-                answer2.setText("registration@iceleads.com");
-                answer3.setText("d6sg7va");
+                answer.setText("URL");
+                    answer2.setText("Login");
+                    answer3.setText("Password");
             }
 
         });
@@ -134,9 +134,9 @@ public class Controller {
             @Override
             public void handle(MouseEvent event) {
 
-                answer.setText("https://affiliate-program.amazon.co.uk/login");
-                answer2.setText("j.kroese@iceleads.com");
-                answer3.setText("3h3efhdg");
+                answer.setText("URL");
+                    answer2.setText("Login");
+                    answer3.setText("Password");
             }
 
         });
@@ -144,9 +144,9 @@ public class Controller {
             @Override
             public void handle(MouseEvent event) {
 
-                answer.setText("https://partnernet.amazon.de/login");
-                answer2.setText("j.kroese@iceleads.com");
-                answer3.setText("3h3efhdg");
+                answer.setText("URL");
+                    answer2.setText("Login");
+                    answer3.setText("Password");
             }
 
         });
@@ -154,9 +154,9 @@ public class Controller {
             @Override
             public void handle(MouseEvent event) {
 
-                answer.setText("https://afiliados.amazon.es/login");
-                answer2.setText("j.kroese@iceleads.com");
-                answer3.setText("3h3efhdg");
+                answer.setText("URL");
+                    answer2.setText("Login");
+                    answer3.setText("Password");
             }
 
         });
@@ -164,9 +164,9 @@ public class Controller {
             @Override
             public void handle(MouseEvent event) {
 
-                answer.setText("https://partenaires.amazon.fr/login");
-                answer2.setText("j.kroese@iceleads.com");
-                answer3.setText("3h3efhdg");
+                answer.setText("URL");
+                    answer2.setText("Login");
+                    answer3.setText("Password");
             }
 
         });
@@ -174,9 +174,9 @@ public class Controller {
             @Override
             public void handle(MouseEvent event) {
 
-                answer.setText("https://affiliate-program.amazon.in/login");
-                answer2.setText("info@iceleads.com");
-                answer3.setText("3h3efhdg");
+                answer.setText("URL");
+                    answer2.setText("Login");
+                    answer3.setText("Password");
             }
 
         });
@@ -184,9 +184,9 @@ public class Controller {
             @Override
             public void handle(MouseEvent event) {
 
-                answer.setText("https://programma-affiliazione.amazon.it/login");
-                answer2.setText("j.kroese@iceleads.com");
-                answer3.setText("3h3efhdg");
+                answer.setText("URL");
+                    answer2.setText("Login");
+                    answer3.setText("Password");
             }
 
         });
@@ -194,9 +194,9 @@ public class Controller {
             @Override
             public void handle(MouseEvent event) {
 
-                answer.setText("");
-                answer2.setText("");
-                answer3.setText("");
+                answer.setText("URL");
+                    answer2.setText("Login");
+                    answer3.setText("Password");
             }
 
         });
