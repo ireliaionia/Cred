@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
 <?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="330.0" prefWidth="635.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
-  <children>
-    <Button fx:id="b1" blendMode="SRC_OVER" cache="true" cacheHint="SPEED" contentDisplay="BOTTOM" depthTest="ENABLE" layoutX="14.0" layoutY="12.0" mnemonicParsing="false" pickOnBounds="false" prefHeight="20.0" prefWidth="200.0" text="Button" textAlignment="RIGHT" textOverrun="CENTER_ELLIPSIS" wrapText="false">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="330.0" prefWidth="635.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.github.ireliaonia.cred.Controller">
+    <Button fx:id="b1" blendMode="SRC_OVER" cache="true" cacheHint="SPEED" contentDisplay="BOTTOM" depthTest="ENABLE" layoutX="14.0" layoutY="12.0" mnemonicParsing="false" pickOnBounds="false" prefHeight="20.0" prefWidth="200.0" text="Button" textAlignment="RIGHT" textOverrun="CENTER_ELLIPSIS">
       <font>
         <Font name="Stencil" size="12.0" fx:id="x1" />
       </font>
@@ -40,5 +36,4 @@
     <Button fx:id="copyb1" font="$x1" layoutX="571.0" layoutY="216.0" mnemonicParsing="false" prefHeight="27.0" text="COPY" textAlignment="JUSTIFY" />
     <Button fx:id="copyb2" font="$x1" layoutX="571.0" layoutY="253.0" mnemonicParsing="false" prefHeight="27.0" text="COPY" textAlignment="JUSTIFY" />
     <Button fx:id="copyb3" font="$x1" layoutX="571.0" layoutY="289.0" mnemonicParsing="false" prefHeight="27.0" text="COPY" textAlignment="JUSTIFY" />
-  </children>
 </AnchorPane>
