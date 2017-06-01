@@ -1,6 +1,5 @@
  package com.github.ireliaonia.cred;
 
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
@@ -11,13 +10,12 @@ import javafx.scene.input.MouseEvent;
 public class Controller {
 
     @FXML
-    private Button b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18;
+    private Button b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, btnLogout;
     @FXML
     private TextField answer, answer2, answer3;
     @FXML
     private Button copyb1, copyb2, copyb3;
-
-
+    private LoginManager loginManager;
     @FXML
     public void initialize(){
         b1.addEventHandler(MouseEvent.MOUSE_CLICKED, event -> {
@@ -144,5 +142,10 @@ public class Controller {
             answer3.selectAll();
             answer3.copy();
         });
+        btnLogout.addEventHandler(MouseEvent.MOUSE_CLICKED, event -> loginManager.logout());
+    }
+    public void init(final LoginManager loginManager)
+    {
+        this.loginManager = loginManager;
     }
 }

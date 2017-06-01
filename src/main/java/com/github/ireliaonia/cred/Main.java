@@ -4,17 +4,18 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 public class Main extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Connectors Credentials");
-        primaryStage.setScene(new Scene(root, 635, 330));
-        primaryStage.show();
-        primaryStage.setResizable(false);
+    public void start(Stage stage) throws Exception{
+        Scene scene = new Scene(new StackPane());
+        LoginManager loginManager = new LoginManager(scene);
+        loginManager.showLoginForm();
+        stage.setScene(scene);
+        stage.show();
 
 
     }
