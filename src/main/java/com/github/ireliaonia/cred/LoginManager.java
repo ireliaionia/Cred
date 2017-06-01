@@ -22,7 +22,7 @@ public class LoginManager {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/loginForm.fxml"));
             scene.setRoot(loader.load());
-            LoginController controller = loader.<LoginController>getController();
+            LoginController controller = loader.getController();
             controller.initLoginManager(this);
 
         }catch (IOException ex){
@@ -34,7 +34,7 @@ public class LoginManager {
      try {
          FXMLLoader loader = new FXMLLoader(getClass().getResource("/mainForm.fxml"));
          scene.setRoot(loader.load());
-         Controller controller = loader.<Controller>getController();
+         Controller controller = loader.getController();
          controller.init(this);
 
      }catch (IOException ex)
